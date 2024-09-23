@@ -20,8 +20,8 @@ export const timelineData: TimelineEntry[] = [
         icon: <RiExternalLinkLine size={20} />,
       }
     },
-    imageUrl: "/images/cs-flashcards.png",
-    description: `A fullstack app for tracking workouts and exploring deep statistical analysis of performance over time. Both visually with charts, but also with data insights all coded by me, using recognised scientific analysis. Log in with "test@email.com" and "TestPassword1!" to explore`,
+    imageUrl: "/images/tiny-workout-screen.png",
+    description: `A fullstack app for tracking workouts and exploring deep statistical analysis of performance over time. Both visually with charts, but also with data insights-all coded by me, using recognised scientific analysis. Log in with "test@email.com" and "TestPassword1!" to explore.`,
     tech: [
       "JavaScript",
       "React",
@@ -53,7 +53,7 @@ export const timelineData: TimelineEntry[] = [
         showStarCount: false,
       }
     },
-    imageUrl: "/images/cs-flashcards.png",
+    imageUrl: "/images/under-construction.webp",
     description: `A frontend app for solving and generating sudoku puzzles.`,
     tech: [
       "TypeScript",
