@@ -12,13 +12,9 @@ export function Contact() {
         <SectionHeading
           title={data.title}
           subTitle={data.subTitle}
+          email={data.email}
           className="mt-12"
         />
-        <div className="m-auto w-full max-w-[1400px] pt-10 md:w-[80%] md:pt-20">
-          <MessageProvider>
-            <Form />
-          </MessageProvider>
-        </div>
       </div>
     </section>
   );

@@ -21,7 +21,7 @@ export const timelineData: TimelineEntry[] = [
       }
     },
     imageUrl: "/images/cs-flashcards.png",
-    description: `A fullstack app for tracking workouts and exploring deep statistical analysis of performance over time. Both visually with charts, but also with data insights all coded by me, using recognised scientific analysis.`,
+    description: `A fullstack app for tracking workouts and exploring deep statistical analysis of performance over time. Both visually with charts, but also with data insights all coded by me, using recognised scientific analysis. Log in with "test@email.com" and "TestPassword1!" to explore`,
     tech: [
       "JavaScript",
       "React",

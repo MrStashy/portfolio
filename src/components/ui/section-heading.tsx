@@ -4,12 +4,14 @@ type SectionHeadingProps = {
   title: string;
   subTitle?: string;
   className?: string;
+  email?: string;
 };
 
 export function SectionHeading({
   title,
   subTitle,
   className,
+  email
 }: SectionHeadingProps) {
   return (
     <div
@@ -21,9 +23,11 @@ export function SectionHeading({
         {title}
       </h2>
       {subTitle && (
+        <div>
         <p className="text-center text-lg font-light text-muted-foreground">
           {subTitle}
-        </p>
+        </p><a className="cursor-pointer" href="mailto:bax.will@googlemail.com">{email}</a>
+        </div>
       )}
     </div>
   );
