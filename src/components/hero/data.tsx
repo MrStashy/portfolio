@@ -9,9 +9,9 @@ export const title = {
 };
 
 export const profileCard = {
-  title: "Jacob Pixler",
+  title: "Will Baxter",
   subTitle: "Fullstack Software Developer",
-  body: `Passionate about building scalable, user-friendly web applications. Always exploring new technologies and best practices to improve development processes. And I like cats.`,
+  body: `Passionate coder transitioning from marketing to web development. I combine UX and user-journey understanding with engineering skills to create effortless software experiences.`,
   socialUrls: [
     {
       url: "https://www.linkedin.com/in/jacob-pixler-094348219/",
@@ -23,7 +23,7 @@ export const profileCard = {
     },
   ],
   tooltip: {
-    imagePath: "https://avatars.githubusercontent.com/u/106707326?v=4",
+    imagePath: "https://willbaxter.my.canva.site/images/db61fc1e47dfd43237a9c0b704450ae4.jpg",
     title: "Hey...",
     subTitle: "That's me!",
   },
