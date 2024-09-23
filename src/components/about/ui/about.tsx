@@ -5,7 +5,7 @@ export function About() {
   return (
     <section className="w-full bg-[#141414]">
       <div className="container">
-        <SectionHeading title={data.title} />
+        <SectionHeading title={data.title} subTitle={data.subTitle}/>
       </div>
     </section>
   );
