@@ -62,12 +62,13 @@ export const timelineData: TimelineEntry[] = [
     tech: [
       "TypeScript",
       "React",
-      "TailwindCSS"
+      "TailwindCSS",
+      "Algorithms"
     ],
     cards: {
       a: {
-        title: "Object Oriented",
-        text: `Engineered to utilize object oriented paradigms and offer opportunities to explore the tenets of object oriented programming.`,
+        title: "Agorithms",
+        text: `This was a test of algorithmic programming. Using the backtracking algorithm as an entry point. More complex, faster algorithms exist and I will test them over time.`,
       },
       b: {
         title: "Deeper Maths",
