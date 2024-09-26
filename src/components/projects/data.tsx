@@ -45,16 +45,20 @@ export const timelineData: TimelineEntry[] = [
     },
   },
   {
-    title: "Sudoku Solver (Under Construction)",
+    title: "Sudoku Solver",
     projectUrls: {
       repo: {
         owner: "MrStashy",
         name: "sudoku-solver",
         showStarCount: false,
+      },
+      site: {
+        url: "https://mrstashy.github.io/sudoku-solver/",
+        icon: <RiExternalLinkLine size={20} />,
       }
     },
-    imageUrl: "/images/under-construction.webp",
-    description: `A frontend app for solving and generating sudoku puzzles.`,
+    imageUrl: "/images/sudoku-screen.png",
+    description: `A frontend app for solving sudoku puzzles.`,
     tech: [
       "TypeScript",
       "React",
