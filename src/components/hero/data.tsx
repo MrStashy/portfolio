@@ -14,10 +14,6 @@ export const profileCard = {
   body: `Passionate coder transitioning from marketing to web development. I combine UX and user-journey understanding with engineering skills to create effortless software experiences.`,
   socialUrls: [
     {
-      url: "https://www.linkedin.com/in/will-baxter-5ba630103/",
-      icon: <FaLinkedinIn size={20} />,
-    },
-    {
       url: "https://github.com/MrStashy",
       icon: <IoLogoGithub size={20} />,
     },
