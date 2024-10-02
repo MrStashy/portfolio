@@ -1,4 +1,3 @@
-import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 
 export const title = {

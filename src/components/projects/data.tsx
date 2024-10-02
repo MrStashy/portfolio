@@ -28,6 +28,7 @@ export const timelineData: TimelineEntry[] = [
       "TailwindCSS",
       "Node",
       "Express",
+      "REST API",
       "Postgres",
       "Prisma",
       "Vercel",
@@ -41,6 +42,39 @@ export const timelineData: TimelineEntry[] = [
       b: {
         title: "Converting To TypeScript",
         text: `This project is being converted to TypeScript. The app is at the point where lacking strict typing is costing more time than it would take to type everything.`,
+      },
+    },
+  },
+  {
+    title: "Competitive Solitaire",
+    projectUrls: {
+      repo: {
+        owner: "MrStashy",
+        name: "competitive-solitaire",
+        showStarCount: false,
+      },
+    },
+    imageUrl: "/images/under-construction.webp",
+    description: `A full-stack competitive game with leaderboards where users try to beat a traditional game of solitaire and post their time to compare performance against friends and other users. This project provides an exploration of drag and drop UX and animation using GSAP.`,
+    tech: [
+      "TypeScript",
+      "React",
+      "TailwindCSS",
+      "REST API",
+      "Express",
+      "Node",
+      "Postgres",
+      "dnd kit",
+      "GSAP"
+    ],
+    cards: {
+      a: {
+        title: "Drag and Drop",
+        text: `Ostensibly not the trickiest UX feature to implement, but when draggable elements can consist of more than one React component depending on their siblings (think descending black-red cards for solitaire), it can become tricky to handle programmatically.`,
+      },
+      b: {
+        title: "Animation",
+        text: `Instead of cards simply appearing in place, the goal is to animate them and add sound. Little touches like cards that wobble as they're dragged, the sound of cards sliding over other cards, and other pieces of visual and audio feedback create an engaging and satisfying gameplay experince for users.`,
       },
     },
   },
